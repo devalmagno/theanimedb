@@ -22,7 +22,7 @@ function HomePage() {
                     <label for="search" className={styles.search_icon}>
                         <FiSearch color="#C2C2C2" />
                     </label>
-                    <label for="search" className={styles.search_bottom}></label>
+                    <label htmlFor="search" className={styles.search_bottom}></label>
                 </div>
             </header>
 
@@ -33,28 +33,20 @@ function HomePage() {
                     <h2>TOP 5 Animes</h2>
                     <div className={styles.item_top}>
                         <a>
-                            <figure>
+                        
                                 <img src="/images/SNK.jpg" alt="Anime Image" />
-                            </figure>
+                            
                         </a>
                         <a>Shingeki no Kyojin</a>
                     </div>
 
-                    <div className={styles.item_sidebar}>
-                        <a>
-                            <figure>
-                                <img src="/images/SNK.jpg" alt="Anime Image" />
-                            </figure>
-                        </a>
-
-                        <a>Shingeki no Kyojin</a>
-                    </div>
+                    <div className={styles.bar_sidebar}></div>
 
                     <div className={styles.item_sidebar}>
                         <a>
-                            <figure>
+                        
                                 <img src="/images/SNK.jpg" alt="Anime Image" />
-                            </figure>
+                            
                         </a>
 
                         <a>Shingeki no Kyojin</a>
@@ -62,9 +54,9 @@ function HomePage() {
 
                     <div className={styles.item_sidebar}>
                         <a>
-                            <figure>
+                        
                                 <img src="/images/SNK.jpg" alt="Anime Image" />
-                            </figure>
+                            
                         </a>
 
                         <a>Shingeki no Kyojin</a>
@@ -72,9 +64,19 @@ function HomePage() {
 
                     <div className={styles.item_sidebar}>
                         <a>
-                            <figure>
+                        
                                 <img src="/images/SNK.jpg" alt="Anime Image" />
-                            </figure>
+                            
+                        </a>
+
+                        <a>Shingeki no Kyojin</a>
+                    </div>
+
+                    <div className={styles.item_sidebar}>
+                        <a>
+                        
+                                <img src="/images/SNK.jpg" alt="Anime Image" />
+                            
                         </a>
 
                         <a>Shingeki no Kyojin</a>
