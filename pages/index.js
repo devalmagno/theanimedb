@@ -27,63 +27,64 @@ function HomePage() {
             </header>
 
             <main>
+              {/* <a className={styles.searchResults}>
+                <figure>
+                    <img src="/images/SNK.jpg"/>
+                </figure>
+                <span>Shingeki</span>
+              </a> */}
+            </main>
+
+            <aside>
                 <div className={styles.sidebar_holder}></div>
 
                 <div className={styles.sidebar}>
                     <h2>TOP 5 Animes</h2>
                     <div className={styles.item_top}>
                         <a>
-                        
-                                <img src="/images/SNK.jpg" alt="Anime Image" />
-                            
+                            <img src="/images/SNK.jpg" alt="Anime Image" />
                         </a>
-                        <a>Shingeki no Kyojin</a>
+                        <span>Shingeki no Kyojin</span>
                     </div>
+                    <div className={styles.topbar_sidebar}></div>
 
-                    <div className={styles.bar_sidebar}></div>
-
-                    <div className={styles.item_sidebar}>
-                        <a>
-                        
+                    <div className={styles.item_container}>
+                        <div className={styles.item_sidebar}>
+                            <div>
                                 <img src="/images/SNK.jpg" alt="Anime Image" />
-                            
-                        </a>
+                            </div>
 
-                        <a>Shingeki no Kyojin</a>
-                    </div>
+                            <a>Shingeki no Kyojin</a>
+                        </div>
 
-                    <div className={styles.item_sidebar}>
-                        <a>
-                        
+                        <div className={styles.item_sidebar}>
+                            <div>
                                 <img src="/images/SNK.jpg" alt="Anime Image" />
-                            
-                        </a>
+                            </div>
 
-                        <a>Shingeki no Kyojin</a>
-                    </div>
+                            <a>Shingeki no Kyojin</a>
+                        </div>
 
-                    <div className={styles.item_sidebar}>
-                        <a>
-                        
+                        <div className={styles.item_sidebar}>
+                            <div>
                                 <img src="/images/SNK.jpg" alt="Anime Image" />
-                            
-                        </a>
+                            </div>
 
-                        <a>Shingeki no Kyojin</a>
-                    </div>
+                            <a>Shingeki no Kyojin</a>
+                        </div>
 
-                    <div className={styles.item_sidebar}>
-                        <a>
-                        
+                        <div className={styles.item_sidebar}>
+                            <div>
                                 <img src="/images/SNK.jpg" alt="Anime Image" />
-                            
-                        </a>
+                            </div>
 
-                        <a>Shingeki no Kyojin</a>
+                            <a>Shingeki no Kyojin</a>
+                        </div>
+                        
                     </div>
                 </div>
                 <div className={styles.sidebar_holder}></div>
-            </main>
+            </aside>
         </div>
     );
 }
