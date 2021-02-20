@@ -27,12 +27,26 @@ function HomePage() {
             </header>
 
             <main>
-              {/* <a className={styles.searchResults}>
+              <a className={styles.anime_box}>
                 <figure>
                     <img src="/images/SNK.jpg"/>
                 </figure>
-                <span>Shingeki</span>
-              </a> */}
+                <a>Shingeki no Kyojin</a>
+              </a>
+
+              <a className={styles.anime_box}>
+                <figure>
+                    <img src="/images/SNK.jpg"/>
+                </figure>
+                <a>Shingeki no Kyojin</a>
+              </a>
+
+              <a className={styles.anime_box}>
+                <figure>
+                    <img src="/images/SNK.jpg"/>
+                </figure>
+                <a>Shingeki no Kyojin</a>
+              </a>
             </main>
 
             <aside>

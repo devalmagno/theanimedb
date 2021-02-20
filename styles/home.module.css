@@ -153,3 +153,61 @@
     text-decoration: underline;
     text-decoration-color: #F5F3F4;
 }
+
+.content main {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+}
+
+.anime_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -20px;
+
+    width: 150px;
+    height: 250px;
+    cursor: pointer;
+}
+
+.anime_box figure {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+.anime_box figure img {
+    height: 200px;
+    transform: scaleX(1.6);
+}
+
+.anime_box a {
+    position: relative;
+    top: -15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+@media (min-width: 900px) {
+    .content {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        grid-template-rows: 20vh 70vh 10vh;
+        grid-template-areas: "header header" "main aside";
+    }
+
+    .content header {
+        height: 100px;
+        grid-area: header;
+    }
+
+    .content main {
+        grid-area: main;
+    }
+
+    .content aside {
+        grid-area: aside;
+    }
+}
